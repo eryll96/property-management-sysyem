@@ -7,6 +7,10 @@ def extract(file_path):
     df = pd.read_csv(file_path)
     return df
 
+def ne_method():
+    print("HI")
+
+    
 # Step 2: Transform - Clean and process the data
 def transform(df):
     # Convert column names to lowercase
